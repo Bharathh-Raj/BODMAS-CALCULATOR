@@ -9,6 +9,8 @@ Let's get into it
 
 AS i mentioned in the description,This program gets input as a string,divides them according to the operation.
 
+It can do calculation involving (  ,  )  ,  /  ,  *  ,  +  ,  - 
+
 Then by BODMAS rule,it first calculates the innermost parantheses(),and accordingly to the outermost.
 
 First does Bracket operation
