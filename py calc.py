@@ -1,8 +1,10 @@
 a=list(input("Enter the input:"))
 b=[]
+z=[]
 s=0
 r=0
 opp=['+',"-","*","/","(",")"]
+
 for i,v in enumerate(a):
     s+=1
     r=s
@@ -20,20 +22,24 @@ for i,v in enumerate(a):
                 b.append(v)
                 a[0]=0
                 s=0
+                
 for i in range(len(a)-r,len(a)):
     a[0]=str(a[0])+a[i]
+    
 if a[len(a)-1]!=")":
     b.append(float(a[0]))
+    
 if b[0]=="-":
     b[0]="-"+str(b[1])
     b[0]=float(b[0])
     del b[1]
+    
 for i, v in enumerate(b):
     if b[i] == "-" and (b[i - 1] == "(" or b[i - 1] == "*" or b[i - 1] == "/"):
         b[i] = b[i] + str(b[i + 1])
         b[i] = float(b[i])
         del b[i + 1]
-z=[]
+        
 def calc():
     global er
     cd = 0
@@ -95,13 +101,16 @@ def calc():
                 del z[i - 1]
                 break
     return z[0]
+
 ob=0
 cb=0
 numcount=0
 ccc=0
+
 for ijk in b:
     if ijk=="(":
         ccc+=1
+        
 for ii in range(ccc):
     for i,v in enumerate(b):
         if v=="(":
@@ -135,8 +144,10 @@ for i,v in enumerate(b):
         del b[i+1]
 for i in range(len(b)):
     z.append(b[i])
+    
 answer=0
 answer=calc()
+
 try:
     if er==0:
         print(answer)
