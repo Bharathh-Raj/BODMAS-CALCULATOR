@@ -18,6 +18,7 @@ then Subtraction
 Finally gives the solution.
 
 eg:If you give input as -35-62(-35+63(-3*-5)5*0)(-5/-2)+235-62(35+63(3*5)5)(5) ,Provides -1470445.0 as output
+
    If you give input as 5/0 , provides "Can't divide by zero" as output 
    
  Thanks.
