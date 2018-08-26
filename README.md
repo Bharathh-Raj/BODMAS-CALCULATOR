@@ -8,11 +8,17 @@ If you get any error in the code,please let me know.Thanks
 Let's get into it
 
 AS i mentioned in the description,This program gets input as a string,divides them according to the operation.
+
 Then by BODMAS rule,it first calculates the innermost parantheses(),and accordingly to the outermost.
+
 First does Bracket operation
+
 then Division
+
 then Multiplication
+
 then Addition
+
 then Subtraction
 
 Finally gives the solution.
