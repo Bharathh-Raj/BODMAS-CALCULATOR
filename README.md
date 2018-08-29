@@ -9,7 +9,9 @@ Let's get into it
 
 AS i mentioned in the description,This program gets input as a string,divides them according to the operation.
 
-It can do calculations involving "("  ,  ")"  ,  "/"  ,  "*"  ,  "+"  ,  "-" 
+It can do calculations involves "("  ,  ")"  ,  "/"  ,  "*"  ,  "+"  ,  "-" 
+
+It even supports float data type
 
 Then by BODMAS rule,it first calculates the innermost parantheses(),and accordingly to the outermost.
 
@@ -30,3 +32,6 @@ eg:If you give input as -35-62.003(-35.1+63(-3*-5.32)5*0)(-5/-2)+235-62(35.33+63
    If you give input as 5/0 , provides "Can't divide by zero" as output 
    
  Thanks.   
+ 
+ bt9944@gmail.com
+ +91 7548843373
